@@ -68,7 +68,7 @@ npm install
 3-run server
 
 ```bash
-# for developmen
+# for development
 npm run start:dev
 
 # for production
