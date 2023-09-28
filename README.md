@@ -79,7 +79,7 @@ npm run start:prod
 
 ## Admin endpoints
 
-#### get users
+> get users
 
 #### REQUEST :
 
@@ -126,7 +126,7 @@ GET http:/127.0.0.1:8000/api/v1/users
 }
 ```
 
-### Create user
+> Create user
 
 #### REQUEST :
 
@@ -152,7 +152,7 @@ POST http:/127.0.0.1:8000/api/v1/users/create
 }
 ```
 
-### Update user
+> Update user
 
 #### REQUEST :
 
@@ -178,7 +178,7 @@ PUT http:/127.0.0.1:8000/api/v1/users
 }
 ```
 
-### Delete user
+> Delete user
 
 #### REQUEST :
 
@@ -186,49 +186,49 @@ DELETE http:/127.0.0.1:8000/api/v1/users
 
 ## Users endpoints
 
-### signUp
+> signUp
 
 #### REQUEST :
 
 POST http:/127.0.0.1:8000/api/v1/signup
 
-### sginIn
+> signIn
 
 #### REQUEST :
 
 POST http:/127.0.0.1:8000/api/v1/login
 
-### get logged user data
+> get logged user data
 
 #### REQUEST :
 
 GET http:/127.0.0.1:8000/api/v1/users/me
 
-### change password
+> change password
 
 #### REQUEST :
 
 POST http:/127.0.0.1:8000/api/v1/users/changepassword/:id
 
-### deactive user
+> deactive user
 
 #### REQUEST :
 
 POST http:/127.0.0.1:8000/api/v1/users/me/deActive
 
-### forget password
+> forget password
 
 #### REQUEST :
 
 POST http:/127.0.0.1:8000/api/v1/forgetpassword
 
-### verify ResetCode
+> verify ResetCode
 
 #### REQUEST :
 
 POST http:/127.0.0.1:8000/api/v1/verifyResetCode
 
-### reset Password
+> reset Password
 
 #### REQUEST :
 
